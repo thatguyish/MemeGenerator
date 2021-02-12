@@ -1,0 +1,71 @@
+body{
+    background-color: lightgray;
+}
+body *{
+    animation: fadeIn ease 2s;
+}
+h1{
+    text-align: center;
+
+}
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#memeGeneratorForm{
+    text-align: center;
+}
+
+#currentMeme{
+    height: 200px;
+    width: 250px;
+    position: relative;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    font-size: large;
+    margin: auto;
+}
+#currentMeme p{
+    position: relative;
+    top: 5px;
+    visibility: hidden;
+}
+#saveDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 5px;
+    visibility: hidden;
+}
+#allMemes{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: grey solid 1px;
+    border-radius: 20px;
+    visibility: hidden;
+    background-color: white;
+    padding-bottom: 5px;
+}
+.meme{
+    height: 200px;
+    width: 250px;
+    position: relative;
+    color: white;
+    text-align: center;
+    background-size: cover;
+    font-size: large;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom:20px;
+}
+.meme p{
+    position: relative;
+    top: -15px;
+}
+.deleteButton{
+    position: relative;
+    bottom: 26px;
+}
